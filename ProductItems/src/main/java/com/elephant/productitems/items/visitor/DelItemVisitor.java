@@ -36,6 +36,7 @@ public class DelItemVisitor implements ItemVisitor<AbstractProductItem> {
             currentItem.removeProductItem(removeItem);
         }
         delChild(removeItem,currentItem);
+        return currentItem;
     }
 
     /**
