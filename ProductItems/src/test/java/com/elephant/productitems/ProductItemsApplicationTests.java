@@ -1,10 +1,10 @@
-package com.elephant.productcategorymanagement;
+package com.elephant.productitems;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProductCategoryManagementApplicationTests {
+class ProductItemsApplicationTests {
 
     @Test
     void contextLoads() {

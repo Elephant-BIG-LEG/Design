@@ -1,13 +1,13 @@
-package com.elephant.productcategorymanagement;
+package com.elephant.productitems;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProductCategoryManagementApplication {
+public class ProductItemsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProductCategoryManagementApplication.class, args);
+        SpringApplication.run(ProductItemsApplication.class, args);
     }
 
 }
